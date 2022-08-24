@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: grey;
+}
+
+.container {
+    position: relative;
+
+    height: 56rem;
+    width: 87%;
+    margin: 3.4rem auto;
+
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.heading {
+    margin: 1rem 0 0 4rem;
+
+}
+
+
+
+
+
+
+
+
+.sidebar {
+    background-color: white;
+
+}
+
+.items {
+    margin: 1rem 0 0 0;
+    height: 40%;
+    border-top: 1px solid whitesmoke;
+    display: fixed;
+
+}
+
+
+.items ul a {
+    display: block;
+    color: black;
+    overflow: hidden;
+    padding: 0.8rem 0 0.8rem 5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 500;
+    list-style: outside none none;
+    text-decoration: none;
+
+}
+
+.items ul a:hover {
+
+    background-color: rgb(31, 79, 174);
+    color: white;
+    transition: .4s;
+    padding-right: 3rem;
+}
+
+
+
+.right-section {
+
+    background-color: whitesmoke;
+
+    overflow: hidden;
+}
+
+
+
+
+#search {
+
+    margin: 10px 36px 0 36px;
+    grid-column: 1/2;
+    width: 25vw;
+    font-size: 1.6rem;
+    box-shadow: rgba(193, 193, 199, 0.25) 0px 50px 100px -20px,
+        rgba(176, 162, 162, 0.3) 0px 30px 60px -30px;
+    border-radius: 0.4rem;
+    background-color: white;
+    border: 10px solid white;
+    padding: 0 0 0 0;
+
+
+}
+
+.right-sec-head {
+    display: flex;
+
+    margin: 1.2rem 0 0 2rem;
+}
+
+.btn_class {
+    margin-left: 78rem;
+}
+
+.btn {
+    padding: 4px 9px;
+    background-color: #007fffcc;
+    border-radius: .5rem;
+    color: white;
+
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.parent_cards {
+    margin: .7rem 0 0 2rem;
+
+    height: 53rem;
+    width: 89rem;
+
+
+
+}
+
+.contain {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+
+.cards {
+
+
+    width: 26rem;
+    height: 18rem;
+    background-color: white;
+    border-radius: .3rem;
+    overflow: hidden;
+    margin: 1rem 0rem;
+
+}
+
+img {
+    width: 27.8rem;
+    height: 12rem;
+}
+
+.info {
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-around
+}
+
+.bio {
+    margin: .4rem 0 0 0rem;
+
+}
+
+.biodata {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.gendershow {
+    text-transform: uppercase;
+
+}
+
+.nameh3 {
+    text-transform: uppercase;
+}
+
+
+.social-web {
+
+    text-align: center;
+
+    position: relative;
+    top: 22rem;
+}
+
+.fa-facebook-f {
+    color: black;
+    margin-right: 1.3rem;
+}
+
+.fa-twitter {
+    color: black;
+    margin-right: 1.3rem;
+}
+
+.fa-linkedin {
+    color: black;
+    margin-right: 1.3rem;
+}
+
+.fa-envelope-open {
+    color: black;
+}
+
+
+
+
+
+
+
+
+/*@media screen and (min-width: 1115px){
+
+    html{
+        font-size: 55%;
+    }
+  }*/
